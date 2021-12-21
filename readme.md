@@ -1,28 +1,28 @@
 <ol>
     <li>
-        the first step is to get the all the paper for a dr from scholar and scopus download all the author paper as a csv file
+        Get all the papers for a dr from scholar and Scopus download all the author papers as a CSV file.
     </li>
     <li>
-        reorder the column into the following:
-        cites, auths, title, publisher, year, url 
+        Reorder the column into the following: cites, auths, title, publisher, year, URL
 </li>
 <li>
-run "difference_report.py", a new file will be generated called
-        difference_report.csv this file contains all the paper that have difference in citations that you should focus on
+    You should have two files, <b>scholar.csv</b> and <b>scopus.csv</b>
+</li>
+<li>
+Run <span style="color: blue;font-weight: bold">difference_report.py</span>. A new file will be generated called <b>difference_report.csv.</b> This file contains all the papers that have a difference in citations that you should focus on
     </li>
     <li>
-    for each paper with differences:
+    For each paper with differences:
     <ul>
         <li>
-            use publish or perish to get all scholar citation and put them into "scholar" folder
+            Use "publish or perish" to get all scholar citations and put them into the "scholar" folder.
         </li>
         <li>
-            use scopus to get all scopus citation and put them into "scopus" folder
+            Use "Scopus" to get all Scopus citations and put them into the "Scopus" folder.
         </li>
     </ul>
     </li>
     <li>
-    run "generate_missing_report.py"
-    this file will generate the missing report to submit for scopus
+   Run <span style="color: blue;font-weight: bold">generate_missing_report.py</span> this file will generate the missing report to submit for Scopus.
     </li>
 </ol>
