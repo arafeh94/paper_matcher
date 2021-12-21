@@ -3,7 +3,9 @@ import csv
 import logging
 import tqdm
 from difflib import SequenceMatcher
-from utils import clean
+
+from src.utils import clean
+
 scopus_report_path = './sample/scopus.csv'
 scholar_report_path = './sample/scholar.csv'
 
