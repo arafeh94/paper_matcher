@@ -1,7 +1,8 @@
 import datetime
 import json
 import requests
-import utils
+
+from src import utils
 
 
 class Paper:

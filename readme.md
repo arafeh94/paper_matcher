@@ -1,6 +1,11 @@
 <ol>
     <li>
         Get all the papers for a dr from scholar and Scopus download all the author papers as a CSV file.
+        <ul>
+            <li>go to scholar and download all author papers</li>
+            <li>go to scopus and download all author papers</li>
+            <li>use difference_report.py(scholar,scopus)</li>
+        </ul>
     </li>
     <li>
         Reorder the column into the following: cites, auths, title, publisher, year, URL

@@ -2,8 +2,7 @@ import csv
 import logging
 import pickle
 import tqdm
-import utils
-from src import FileLoader, Parsers
+from src import FileLoader, Parsers, utils
 import os
 from src.Scopus import Scopus, Paper
 
